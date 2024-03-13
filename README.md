@@ -1,19 +1,20 @@
 
 #### Setup
 
-git clone ``
-npm i 
-cd /usr/local/bin     
-sudo vim celestia.sh
+1. git clone https://github.com/niluke/celestia_cli_tool.git
+2. npm i 
+3. cd /usr/local/bin     
+4. sudo vim celestia.sh
+
 
 ```bash
 #!/bin/bash
-node /home/username/reponame/main.js "$@"
+node /home/username/celestia_cli_tool/main.js "$@"
 ```
-:wq
-chmod +x  celestia.sh
-celestia generate-mnemonic
-create  .env just like  in the .env.example  
+5. :wq
+6. chmod +x  celestia.sh
+7. celestia generate-mnemonic
+8. create  .env just like  in the .env.example  
 
 ---
 
