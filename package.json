@@ -1,0 +1,21 @@
+{
+  "name": "cosmos_txn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "tia": "./main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@cosmjs/proto-signing": "^0.31.1",
+    "@cosmjs/stargate": "^0.31.3",
+    "dotenv": "^16.4.5",
+    "yargs": "^17.7.2"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC"
+}
